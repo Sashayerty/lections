@@ -877,19 +877,23 @@
 <p>Будем считать, что у Вас дома есть home lab (дословно домашняя лаборатория/сервер). Тогда подготовка к конфигурации БПОС займет немного времени. Поставим на home lab <code>Ubuntu Server LTS</code> (LTS - long term support).
 <img alt="Фоточка" src="../img/ubuntu.png" /></p>
 <h2 id="_2">Выбор софта для развертывания<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<p>Наиболее популярные решения для развёртывания собственного БПОС:
-- OpenVPN — классический, надёжный, гибкий.
-- WireGuard — современный, простой в конфигурации, высокопроизводительный.
-- SoftEther VPN — многофункциональный, поддерживает множество протоколов.</p>
+<p>Наиболее популярные решения для развёртывания собственного БПОС:</p>
+<ul>
+<li>OpenVPN — классический, надёжный, гибкий.</li>
+<li>WireGuard — современный, простой в конфигурации, высокопроизводительный.</li>
+<li>SoftEther VPN — многофункциональный, поддерживает множество протоколов.</li>
+</ul>
 <p>Основываясь на наших потребностях, мы выбрали <code>WireGuard</code> (Далее Wireguard = wg).</p>
 <h2 id="wireguard-ufw">Установка WireGuard и ufw<a class="headerlink" href="#wireguard-ufw" title="Permanent link">&para;</a></h2>
 <p>Для начала обновим списки пакетов, а далее обновим систему:
 <div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>update<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>apt<span class="w"> </span>upgrade<span class="w"> </span>-y
-</code></pre></div>
-Далее установим wireguard и ufw
+</code></pre></div></p>
+<p>Далее установим wireguard и ufw
 <div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>wireguard<span class="w"> </span>ufw
-</code></pre></div>
-- ufw - удобное управление файрволлом системы (менеджер файрволла)</p>
+</code></pre></div></p>
+<ul>
+<li>ufw - удобное управление файрволлом системы (менеджер файрволла)</li>
+</ul>
 <h2 id="wg">Генерация ключей для wg<a class="headerlink" href="#wg" title="Permanent link">&para;</a></h2>
 <p>WireGuard использует пары приватный/публичный ключ.
 Ключи обеспечивают:
