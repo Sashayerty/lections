@@ -1,0 +1,75 @@
+site_name: Лекции по ИнфоТеху
+repo_url: https://github.com/sashayerty/lections
+repo_name: sashayerty/lections
+nav:
+  - "Список Лекций": lections.md
+  - "Лекции":
+    - "02.09.2025": 02.09.2025.md
+    - "09.09.2025": 09.09.2025.md
+    - "13.10.2025": 13.10.2025.md
+    - "14.10.2025": 14.10.2025.md
+    - "15.09.2025": 15.09.2025.md
+    - "16.09.2025": 16.09.2025.md
+    - "23.09.2025": 23.09.2025.md
+    - "27.10.2025": 27.10.2025.md
+    - "30.09.2025": 30.09.2025.md
+  - "Доклады":
+    - "Как развернуть свой собственный VPN сервер для доступа к Российским сервисам из-за границы?": ru_vpn.md 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Sashayerty
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/Sashayerty
+    - icon: fontawesome/brands/vk
+      link: https://vk.com/sashayerty
+theme:
+  features:
+    - content.code.copy
+    - navigation.sections
+    - navigation.footer
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+  icon:
+    logo: fontawesome/solid/book-open
+    repo: fontawesome/brands/github-alt
+  language: ru
+  name: material
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Переключить на светлую тему
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Переключить на темную тему
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: dracula
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/toggle-switch
+        name: Переключить на системную тему
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.highlight
+  - pymdownx.superfences
