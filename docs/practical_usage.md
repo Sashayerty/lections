@@ -37,3 +37,10 @@ VPN - это один из фундаментальных инструменто
  • Это особенно важно для организаций, обрабатывающих чувствительные данные (персональные данные, коммерческие тайны, финансовую информацию и др.). В таких случаях VPN часть комплексной стратегии безопасности
 
 
+## Источники 
+
+- [Безопасный удалённый доступ сотрудников](https://cyberleninka.ru/article/n/razrabotka-proekta-po-sozdaniyu-zaschischennoy-korporativnoy-seti-s-primeneniem-tehnologiy-vpn/viewer) Дата обращения: 07.12.2025
+- [Объединение филиалов и дата-центров](https://cyberleninka.ru/article/n/tehnologiya-vpn-vipnet/viewer) Дата обращения: 07.12.2025
+- [Защита внутреннего трафика](https://cyberleninka.ru/article/n/organizatsiya-virtualnogo-sekretnogo-kanala-svyazi/viewer) Дата обращения: 07.12.2025
+- [Масштабное применение Zero Trust](https://cyberleninka.ru/article/n/analiz-uyazvimostey-i-riskov-traditsionnyh-parolnyh-sistem-v-kontekste-korporativnyh-raspredelennyh-sistem-i-kriticheski-vazhnyh) Дата обращения: 07.12.2025
+- [Централизация политики безопасности](https://cyberleninka.ru/article/n/ispolzovanie-perspektivnyh-tehnologiy-dlya-razvitiya-raspredelennyh-korporativnyh-setey-svyazi/viewer) Дата обращения: 07.12.2025
