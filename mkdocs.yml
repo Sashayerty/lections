@@ -19,7 +19,6 @@ nav:
     - "Https наглядно": https_belike.md
   - "Экзамены":
     - "Ответы на вопросы к экзаменационной сессии по ИнфоТеху": exam_aq.md
-    - "Ответы на вопросы к зачету по дисциплине ИнжеГрафика": exam_graph.md
 extra:
   social:
     - icon: fontawesome/brands/github
